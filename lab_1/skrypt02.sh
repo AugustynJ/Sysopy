@@ -1,4 +1,3 @@
-
 #!/bin/bash
 if (( $2 < $1 )); then
 	echo "Wrong range!"
