@@ -1,8 +1,6 @@
 #!/bin/bash
-i=$#
-while (( $i >= 0 )); do
-        echo -n $`echo $i`" "
-        i=$(( $i-1 ))
+for (( i=$#; i>0; i-- )); do
+	echo -n "${i}"
 done
 echo ""
 exit
