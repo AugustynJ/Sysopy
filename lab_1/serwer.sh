@@ -9,7 +9,6 @@ for (( i=0; i<$1; i++ )); do
 		losowanie1=`ls -al | grep los1.txt | wc -l`
 		losowanie2=`ls -al | grep los2.txt | wc -l`
 		if(( $losowanie1 == 1 && $losowanie2 == 1)); then
-			echo "chuj"
 			break
 		fi
 		sleep 0.1
