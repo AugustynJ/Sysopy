@@ -1,5 +1,4 @@
 #!/bin/bash
-
 rm gra.log 2>/dev/null
 touch gra.log
 for (( i=0; i<$1; i++ )); do
