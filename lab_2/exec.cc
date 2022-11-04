@@ -9,6 +9,6 @@ int main() {
     printf("Hello, I'am fake another program\n");
     cout << getpid() << "\n";
     getchar();
-    execvp("/home/kuba/sem_3/sysopy/lab_2/another",NULL);    
+    execvp("another",NULL);    
     return 0;
 }
