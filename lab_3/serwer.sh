@@ -37,5 +37,5 @@ do
 	fi
 
 done
-trap echo "JD" SIGINT
+
 exit
